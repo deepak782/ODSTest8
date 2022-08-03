@@ -1,4 +1,4 @@
-package com.example.odstest8;
+package com.example.odstest8.type1;
 
 public class ListModel {
 
@@ -6,6 +6,7 @@ public class ListModel {
     private String title;
     private String url;
     private String thumbnailUrl;
+
 
     public ListModel(int albumId, String title, String url, String thumbnailUrl) {
         this.albumId = albumId;

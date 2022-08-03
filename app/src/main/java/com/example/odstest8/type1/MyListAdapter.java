@@ -1,4 +1,4 @@
-package com.example.odstest8;
+package com.example.odstest8.type1;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.odstest8.R;
 
 import java.util.ArrayList;
 import java.util.List;

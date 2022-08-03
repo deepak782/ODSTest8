@@ -1,4 +1,4 @@
-package com.example.odstest8;
+package com.example.odstest8.type1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,6 +7,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.example.odstest8.MyApiCall;
+import com.example.odstest8.R;
 
 import java.util.ArrayList;
 import java.util.List;

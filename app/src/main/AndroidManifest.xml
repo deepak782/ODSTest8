@@ -12,16 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ODSTest8">
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ListActivity"
-            android:exported="true">
+            android:name=".type2.ListActivity2"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".type1.ListActivity"
+            android:exported="true">
+
         </activity>
 
         <meta-data

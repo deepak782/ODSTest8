@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".type1.ListActivity">
+    tools:context=".type2.ListActivity2">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="16dp"
-        android:id="@+id/List"/>
+        android:layout_margin="10dp"
+        android:id="@+id/simpleList"
+        />
 
 </LinearLayout>
